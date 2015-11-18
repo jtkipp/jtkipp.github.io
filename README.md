@@ -9,3 +9,12 @@
 * Including MD in an jekyll HTML page ([StackExchange](http://webmasters.stackexchange.com/questions/64812/how-to-include-the-contents-of-a-markdown-page-into-a-post-with-jekyll))
 * [Kramdown Quick Ref](http://kramdown.gettalong.org/quickref.html#links-and-images)
 * Jekyll to PDF ([StackExchange](http://stackoverflow.com/questions/2606606/jekyll-documentation-to-pdf-with-toc))
+
+### ToDo
+
+* SE Level:
+  + Word-smith around developer level.
+* Add Document introduction
+* Add Matt's suggestion of understandings one level up and down stack.
+* Take using-jekyll notes.
+* Look for an interesting theme.
