@@ -4,6 +4,20 @@ layout: default
 
 <div class="home">
 
+  <h1>Articles</h1>
+
+  <ul>
+    <li><h2><a href="#introduction">Introduction</a></h2></li>
+    {% for article in site.developer_skills_articles %}
+      <li>
+        <h2>
+          <a href="{{ article.url | prepend: article.baseurl }}">{{ article.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <!-- ToDo: Float right into column -->
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
@@ -17,6 +31,14 @@ layout: default
       </li>
     {% endfor %}
   </ul>
+
+  <h1><a name="introduction"></a>Introduction</h1>
+
+  <p>Software development is often treated as a ablity with a large amount of <i>je ne said quoi</i>. The most famous facetious explanation of the quality developer attitude is, "laziness, hubris." <!-- ToDo: Find larry wall quote, fix up. --> In reality the opposite is true. but the skills and attitudes of successful software development are both learnable and coachable. </p>
+
+  <p>The first manager a software developer has when he or she begins full time development will have a huge impact on the software that developer will produce for the rest of their career. Nobody begins developing software with a natural understanding of what makes clear, easily maintainable source code. Rather the software they read will create an imprint of how software should look that will take a great deal of conscious effort to change. <!-- ToDo: See Kath Sierra, Badass --></p>
+
+  <p>Although we hope that all the software developers on our engineering team love software development and want to pursue skills development within software engineering, skill development is largely self-directed. We coach using the G.R.O.W. model, <!-- ToDo: Link to re:work with Google --></p>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 

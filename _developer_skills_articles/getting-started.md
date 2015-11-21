@@ -1,8 +1,12 @@
 ---
+path: getting-started
 layout: page
-title: Software Developer Skills
-permalink: /software-developer-skills/
+title: Getting Started as a Software Developer
 ---
+
+A software developer starting their career will likely only have mastered a small set of the skills in this list. Recent graduates in computer science who started programming during college will likely only have mastered a few top level items from the following list (although some computer science graduates either started programming long before college or end up writing much more software during their undergraduate years). Graduates from coding schools have probably not yet mastered any of the skills on this list; if starting from scratch, 12 weeks of learning at saturation levels is barely enough time to learn how to operate the tools of software development well enough to bootstrap further self-directed learning.
+
+Depending on variety of experiences and the quality and amount of useful coaching, mastering the skills on the getting start list probably takes between 2 and 4 years of full-time work as a software engineer.
 
 #### Algorithm & OOP Concepts
 

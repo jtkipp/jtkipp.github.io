@@ -1,6 +1,10 @@
 
 [jtkipp.github.io](https://github.com/jtkipp/jtkipp.github.io)
 
+### Site Setup
+
+Individual articles from the table of contents are set up in the developer_skills_articles collection. The markdown files for these articles are in the `_developer_skills_articles` directory.
+
 ### Github Pages References
 
 * [Using Jekyll with Github pages](https://help.github.com/articles/using-jekyll-with-pages/)
